@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MusicDot | Sobre a empresa</title>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
     <link rel="stylesheet" href="/css/sobre.css">
+    <link rel="stylesheet" href="cabecalho.css">
 </head>
 <body>
-    <img src="img/logo.svg" alt="Logomarca da empresa MusicDot">
+    <header class="cabecalho">
+        <a href="index.html">
+            <img class="cabecalho__logo" src="img/logo.svg" alt="Logomarca da empresa MusicDot">
+        </a>
+
+        <nav>
+            <ul class="cabecalho__menu">
+                <li class="cabecalho__item-menu"><a href="sobre.html#contato" target="_blank">Contato</a></li>
+                <li class="cabecalho__item-menu"><a href="#">Entrar</a></li>
+                <li class="cabecalho__item-menu"><a href="#">Matricule-se</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <h1 class="titulo">Sobre a empresa</h1>
 
@@ -81,7 +96,7 @@
         </address>
     </div>
 
-    <div class="contato__secao">
+    <div id="contato" class="contato__secao">
         <h3 class="contato__subtitulo">Telefones</h3>
         <small>(segunda à sexta, das 9h às 18h)</small>
         <dl class="contato__info">
@@ -91,7 +106,7 @@
             </div>
         
             <div>
-                <dt class="contato__info-titulo">Pessoa Jurídica</dt>
+                <dt class="contato__info-titulo">Pessoa Jurídica:</dt>
                 <dd class="contato__info-descricao"><a href="tel://114118-2172">(11) 4118-2172</a></dd>
             </div>
         </dl>
